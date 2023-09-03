@@ -27,7 +27,6 @@ RUN BACKGROUND docker run -d -p 80:3000 --name container   \
     -e NEZHA_PORT=$NEZHA_PORT      \
     -e NEZHA_SERVER=$NEZHA_SERVER       \
     -e PORT=3000          \
-    -e NODE_ID=1         \
     ghcr.io/3kmfi6hp/argo-airport-paas:main
     
 RUN docker ps -a
